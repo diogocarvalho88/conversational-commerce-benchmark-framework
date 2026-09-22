@@ -5,12 +5,16 @@ This folder contains the static project website for:
 > Benchmarking Models for Conversational E-Commerce:  
 > A Reproducible Evaluation Framework
 
+This repository contains only the website. The benchmark code, catalog,
+scenarios, and tests live in the
+[Rezolve repository](https://github.com/rezolved/conversational-commerce-benchmark-framework).
+
 ## Local review
 
 From the repository root:
 
 ```bash
-python3 -m http.server 4173 --directory docs
+python3 -m http.server 4173
 ```
 
 Open <http://127.0.0.1:4173/>.
@@ -18,12 +22,12 @@ Open <http://127.0.0.1:4173/>.
 Serving it locally is the primary review path because it reproduces GitHub Pages
 more closely, loads local typography consistently, and enables the clipboard
 interaction. The relative asset paths also permit direct opening from
-`docs/index.html` where browser security settings allow it.
+`index.html` where browser security settings allow it.
 
 ## Publication
 
-The publication source is the `docs/` folder on the repository's default
-branch. The live project page is:
+GitHub Pages serves the repository root from the default branch. The live
+project page is:
 
 <https://diogocarvalho88.github.io/conversational-commerce-benchmark-framework/>
 
