@@ -931,6 +931,17 @@ pre {
   line-height: 1.52;
 }
 
+.score-note {
+  max-width: 860px;
+  margin: 26px 0 0;
+  padding: 20px 24px;
+  border-left: 4px solid var(--violet);
+  border-radius: var(--radius-sm);
+  background: var(--mist);
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .trace-section {
   position: relative;
   overflow: hidden;
@@ -1175,6 +1186,16 @@ pre {
   background: #fbfcff;
 }
 
+.figure-link {
+  display: block;
+  cursor: zoom-in;
+}
+
+.figure-link:focus-visible {
+  outline: 3px solid var(--violet);
+  outline-offset: -3px;
+}
+
 .research-figure figcaption {
   min-height: 150px;
   padding: 25px 28px 28px;
@@ -1187,6 +1208,13 @@ pre {
   display: block;
   margin-bottom: 7px;
   color: var(--ink);
+}
+
+.research-figure figcaption a {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--azure);
+  font-weight: 700;
 }
 
 .finding-grid {
