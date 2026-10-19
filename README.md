@@ -1,5 +1,10 @@
 # Project website
 
+**Moved (19 Oct 2026):** the project page now lives on the Rezolve Ai Labs
+research site at <https://rails-papers.rezolve.cloud/cc-benchmark-framework/>.
+`index.html` here is only a redirect to that address; the old page's assets stay
+in place so existing social previews keep resolving.
+
 This folder contains the static project website for:
 
 > Benchmarking Models for Conversational E-Commerce:  
@@ -26,13 +31,10 @@ interaction. The relative asset paths also permit direct opening from
 
 ## Publication
 
-GitHub Pages serves the repository root from the default branch. The live
-project page is:
+GitHub Pages serves the repository root from the default branch, which now
+redirects to the live project page:
 
-<https://diogocarvalho88.github.io/conversational-commerce-benchmark-framework/>
-
-The Open Graph cover is `assets/images/og-cover.png`; the page metadata uses
-its absolute live URL for social previews.
+<https://rails-papers.rezolve.cloud/cc-benchmark-framework/>
 
 ## Content authority
 
